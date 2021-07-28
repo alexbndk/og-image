@@ -49,7 +49,10 @@ function getCss() {
         font-weight: bold;
         color: #fff;
         line-height: 1.1;
-        line-clamp: 3;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }
     
     .subtitle {
@@ -60,7 +63,10 @@ function getCss() {
         font-style: normal;
         color: #fff9;
         line-height: 1.33;
-        line-clamp: 4;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
     }`;
 }
 
