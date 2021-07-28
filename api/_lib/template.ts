@@ -1,5 +1,4 @@
 import { ParsedRequest } from './types';
-import marked from 'marked';
 import { readFileSync } from 'fs';
 import { sanitizeHtml } from './sanitizer';
 const twemoji = require('twemoji');
