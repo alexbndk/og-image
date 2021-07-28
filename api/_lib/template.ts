@@ -49,16 +49,18 @@ function getCss() {
         font-weight: bold;
         color: #fff;
         line-height: 1.1;
+        line-clamp: 3;
     }
     
     .subtitle {
         margin-top: 50px;
-        width: 55%;
+        width: 60%;
         font-family: 'Hellix', sans-serif;
         font-size: 65px;
         font-style: normal;
         color: #fff9;
         line-height: 1.33;
+        line-clamp: 4;
     }`;
 }
 
