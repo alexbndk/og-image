@@ -42,18 +42,18 @@ function getCss() {
     
     .heading {
         margin-top: 75px;
-        width: 66%;
+        width: 75%;
         font-family: 'Hellix', sans-serif;
         font-size: 120px;
         font-style: normal;
         font-weight: bold;
         color: #fff;
-        line-height: 1.25;
+        line-height: 1.1;
     }
     
     .subtitle {
         margin-top: 50px;
-        width: 66%;
+        width: 55%;
         font-family: 'Hellix', sans-serif;
         font-size: 65px;
         font-style: normal;
